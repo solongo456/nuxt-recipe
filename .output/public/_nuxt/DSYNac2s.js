@@ -1,0 +1,1 @@
+import{_ as t,c as a,a as i,o as s}from"./D2e-0rb3.js";const c={};function r(o,n){return s(),a("div",null,[i("button",{onClick:n[0]||(n[0]=(...e)=>o.signInWithFacebook&&o.signInWithFacebook(...e))},"Sign in with Facebook")])}const f=t(c,[["render",r]]);export{f as default};
