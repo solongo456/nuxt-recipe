@@ -47,8 +47,10 @@ export default defineNuxtConfig({
     }
 
   },
+  target: "static",
   router: {
-    base: "recipe-app",
-  },
+    base: "/nuxt-recipe/"
+  }
+
   // plugins: ["~/plugins/firebase.vue"],
 });
