@@ -45,12 +45,12 @@ export default defineNuxtConfig({
     families: {
       Montserrat: true
     }
-
   },
   target: "static",
   router: {
-    base: "/nuxt-recipe/"
-  }
+    base: "/nuxt-recipe/", // Make sure this matches your repository name
+  },
 
+  // Uncomment this line if you're using Firebase or other plugins
   // plugins: ["~/plugins/firebase.vue"],
 });
