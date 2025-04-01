@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+
   // To re-enable _all_ Nuxt v3 behavior, set the following options:
   compatibilityDate: '2025-03-26',
 
@@ -45,6 +46,9 @@ export default defineNuxtConfig({
       Montserrat: true
     }
 
+  },
+  router: {
+    base: "recipe-app",
   },
   // plugins: ["~/plugins/firebase.vue"],
 });
